@@ -21,7 +21,7 @@ int main() {
     __int8 C[8] = { 5, 5, 5, 5, 6, 6, 6, 6 };
     __int16 D[8] = { 7, 7, 7, 7, 8, 8, 8, 8 };
     __int32 F[8] = {};
-    __int32 buffer[4] = {0};
+    __int32 cmuld[8] = { 0 };
 
     __int64 AminusB;
 
@@ -34,15 +34,38 @@ int main() {
         ; C* D
         movq mm0, C
         movq mm1, C
-        pxor mm2, mm2
+        movq mm2, C
+        movq mm3, C
+        pxor mm6, mm6
         
-        punpcklbw mm0, mm2
-        punpckhbw mm1, mm2
+        punpcklbw mm0, mm6
+        punpcklbw mm1, mm6
+        punpckhbw mm2, mm6
+        punpckhbw mm3, mm6
 
-        movq mm2, D
-        movq mm3, D + 8
+        movq mm4, D
+        movq mm5, D + 8
 
-        
+        pmulhw mm0, mm4
+        pmullw mm1, mm4
+        pmulhw mm2, mm5
+        pmullw mm3, mm5
+
+        movq mm4, AminusB
+        movq mm5, AminusB
+
+        punpcklbw mm4, mm6
+        punpcklbw mm5, mm6
+
+        paddw mm1, mm4
+        paddw mm3, mm5
+
+        movq cmuld, mm0
+        movq cmuld + 8, mm1
+        movq cmuld + 16, mm2
+        movq cmuld + 24, mm3
+
+        emms
         ; () + ()
     }
 
