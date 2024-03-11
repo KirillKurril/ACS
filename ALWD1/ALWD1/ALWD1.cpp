@@ -5,16 +5,15 @@
 typedef double DataType;
 
 int main() {
-    std::locale::global(std::locale(""));
-    DataType a, b, h, precision;
-    std::cout << "Enter a" << std::endl;
+    DataType a = 1, b = 10, h = 0.1, precision = 0.01;
+   /* std::cout << "Enter a" << std::endl;
     std::cin >> a;
     std::cout << "Enter b" << std::endl;
     std::cin >> b;
     std::cout << "Enter h" << std::endl;
     std::cin >> h;
     std::cout << "Enter the precision: " << std::endl;
-    std::cin >> precision;
+    std::cin >> precision;*/
     
     GraphMaker<DataType> graph = GraphMaker<DataType>();
     Calculator<DataType> calculator = Calculator<DataType>();

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Uni\\ACS\\ALWD3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0014D561-7903-4B5D-B79C-7A52D908C20D}|ALWD1\\ALWD1.vcxproj|C:\\Uni\\ACS\\ALWD3\\ALWD1\\ALWD3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0014D561-7903-4B5D-B79C-7A52D908C20D}|ALWD1\\ALWD1.vcxproj|solutionrelative:ALWD1\\ALWD3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ALWD3.cpp",
+              "DocumentMoniker": "C:\\Uni\\ACS\\ALWD3\\ALWD1\\ALWD3.cpp",
+              "RelativeDocumentMoniker": "ALWD1\\ALWD3.cpp",
+              "ToolTip": "C:\\Uni\\ACS\\ALWD3\\ALWD1\\ALWD3.cpp",
+              "RelativeToolTip": "ALWD1\\ALWD3.cpp",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAWwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-10T08:53:11.387Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

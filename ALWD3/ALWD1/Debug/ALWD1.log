@@ -1,0 +1,10 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ALWD1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  ALWD3.cpp
+C:\Uni\ACS\ALWD3\ALWD1\ALWD3.cpp(49,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Uni\ACS\ALWD3\ALWD1\ALWD3.cpp(50,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Uni\ACS\ALWD3\ALWD1\ALWD3.cpp(51,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Uni\ACS\ALWD3\ALWD1\ALWD3.cpp(52,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Uni\ACS\ALWD3\ALWD1\ALWD3.cpp(53,5): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Uni\ACS\ALWD3\ALWD1\ALWD3.cpp(56,1): warning C4799: function 'main' has no EMMS instruction
+C:\Uni\ACS\ALWD3\ALWD1\ALWD3.cpp(75,1): warning C4799: function 'calculate' has no EMMS instruction
+  ALWD1.vcxproj -> C:\Uni\ACS\ALWD3\Debug\ALWD3.exe
