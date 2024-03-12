@@ -94,8 +94,8 @@ int main()
 
 
         movq F, mm0
-        movq F + 8, mm1
-        movq F + 16, mm2
+        movq F + 16, mm1
+        movq F + 8, mm2
         movq F + 24, mm3
         emms
     }
