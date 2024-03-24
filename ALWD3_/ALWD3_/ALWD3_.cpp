@@ -10,7 +10,7 @@ int main()
     __int32 AMinB[8] = {};
     __int64 temp = 0;
     
-
+    //	F[i]=A[i] -B[i] + C[i] *D[i], i=1...8.
     __asm {
         ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
         movq mm1, C
@@ -20,7 +20,7 @@ int main()
         movq mm2, D + 8
 
 
-        punpckhbw mm1, mm7
+        punpckhbw mm1, mm7 
         movq temp, mm1
         movq mm3, temp
 

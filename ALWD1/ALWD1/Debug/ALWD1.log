@@ -1,21 +1,21 @@
 ﻿  ALWD1.cpp
-C:\Uni\ACS\ALWD1\ALWD1\Calculator.h(122,21): warning C4244: 'initializing': conversion from '_Rep' to 'double', possible loss of data
-C:\Uni\ACS\ALWD1\ALWD1\Calculator.h(122,21): warning C4244:         with
-C:\Uni\ACS\ALWD1\ALWD1\Calculator.h(122,21): warning C4244:         [
-C:\Uni\ACS\ALWD1\ALWD1\Calculator.h(122,21): warning C4244:             _Rep=__int64
-C:\Uni\ACS\ALWD1\ALWD1\Calculator.h(122,21): warning C4244:         ]
-  (compiling source file 'ALWD1.cpp')
-  C:\Uni\ACS\ALWD1\ALWD1\Calculator.h(122,21):
-  the template instantiation context (the oldest one first) is
-  	C:\Uni\ACS\ALWD1\ALWD1\ALWD1.cpp(19,26):
-  	see reference to class template instantiation 'Calculator<DataType>' being compiled
-  	C:\Uni\ACS\ALWD1\ALWD1\Calculator.h(106,1):
-  	while compiling class template member function 'std::pair<T,T> Calculator<T>::Calculate(T,T)'
+E:\Uni\ACS\ALWD1\ALWD1\Calculator.h(122,21): warning C4244: инициализация: преобразование "_Rep" в "double", возможна потеря данных
+E:\Uni\ACS\ALWD1\ALWD1\Calculator.h(122,21): warning C4244:         with
+E:\Uni\ACS\ALWD1\ALWD1\Calculator.h(122,21): warning C4244:         [
+E:\Uni\ACS\ALWD1\ALWD1\Calculator.h(122,21): warning C4244:             _Rep=__int64
+E:\Uni\ACS\ALWD1\ALWD1\Calculator.h(122,21): warning C4244:         ]
+  (компиляция исходного файла "ALWD1.cpp")
+  E:\Uni\ACS\ALWD1\ALWD1\Calculator.h(122,21):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	E:\Uni\ACS\ALWD1\ALWD1\ALWD1.cpp(19,26):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "Calculator<DataType>"
+  	E:\Uni\ACS\ALWD1\ALWD1\Calculator.h(106,1):
+  	во время компиляции функции-члена класс шаблон "std::pair<T,T> Calculator<T>::Calculate(T,T)"
           with
           [
               T=DataType
           ]
-  		C:\Uni\ACS\ALWD1\ALWD1\ALWD1.cpp(22,24):
-  		see the first reference to 'Calculator<DataType>::Calculate' in 'main'
+  		E:\Uni\ACS\ALWD1\ALWD1\ALWD1.cpp(22,24):
+  		см. первую ссылку на "Calculator<DataType>::Calculate" в "main"
   
-  ALWD1.vcxproj -> C:\Uni\ACS\ALWD1\Debug\ALWD1.exe
+  ALWD1.vcxproj -> E:\Uni\ACS\ALWD1\Debug\ALWD1.exe
